@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('configs/db.php');
+require_once('../configs/db.php');
 
 if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
     header("location: dashboard.php");

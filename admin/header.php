@@ -6,7 +6,7 @@ if (!isset($_SESSION['loggedin'])) {
 }
 ?>
 
-<?php include('configs/db.php'); ?>
+<?php include('../configs/db.php'); ?>
 <?php
 $id = $_SESSION['id'];
 $level = $_SESSION['level'];
@@ -44,7 +44,7 @@ $name = $row['name'];
                         </ul>
                     </li>
                     <li class="nav-item mb-2"><a class="nav-link text-white" href="orders.php">Orders</a></li>
-                    <li class="nav-item mt-auto"><a class="nav-link text-white" onclick="return confirm('Are you sure you want to logout?');" href="configs/logout.php">Logout</a></li>
+                    <li class="nav-item mt-auto"><a class="nav-link text-white" onclick="return confirm('Are you sure you want to logout?');" href="logout.php">Logout</a></li>
                 <?php } ?>
             </ul>
         </nav>
