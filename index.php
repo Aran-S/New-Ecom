@@ -189,7 +189,7 @@ $result = mysqli_query($con, $sql);
     <footer class="bg-dark text-light py-4 mt-5">
         <div class="container d-flex justify-content-between align-items-center">
             <div>&copy; <?= date('Y') ?> E-Store. All rights reserved.</div>
-            <!-- <div><small><a href="admin-login.php" target="_blank" class="text-light text-decoration-none"><i class="fas fa-shield-alt"></i> Admin Access</a></small></div> -->
+            <div><small><a href="admin/admin-login.php" target="_blank" class="text-light text-decoration-none"><i class="fas fa-shield-alt"></i> Admin Access</a></small></div>
         </div>
     </footer>
 
